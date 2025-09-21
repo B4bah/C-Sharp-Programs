@@ -16,7 +16,7 @@ namespace PointInTheCircles
             PrintAffectedCirclesInfo(affectedCircles);
         }
 
-        // Declaration of operating structures
+        // Declaration of existing structures
         struct Point
         {
             private double x;
