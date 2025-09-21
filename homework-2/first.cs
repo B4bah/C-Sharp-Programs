@@ -7,7 +7,7 @@ namespace PointInTheCircles
 {
     class Program
     {
-            // Calculation unit
+        // Calculation unit
         static void Main()
         {
             Point userPoint = GetPointFromUser();
@@ -52,6 +52,7 @@ namespace PointInTheCircles
             }
         }
 
+        // Declaration of functions
         static Point GetPointFromUser()
         {
             Console.Write("Enter the coords (x, y) of the point, splitted by space:\n>>> ");
@@ -86,7 +87,6 @@ namespace PointInTheCircles
             return circles;
         }
 
-        // Declaration of functions
         static Circle[] GetAffectedCircles(Point point, Circle[] circles)
         {
             List<Circle> affectedCirclesTemp = new List<Circle>();
