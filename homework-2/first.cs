@@ -7,7 +7,7 @@ namespace PointInTheCircles
 {
     class Program
     {
-        // Calculation unit
+        // Main unit
         static void Main()
         {
             Point userPoint = GetPointFromUser();
